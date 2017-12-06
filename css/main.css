@@ -185,17 +185,17 @@
 	margin-top: 20px;
 }
 
-.datos::-webkit-input-placeholder {  
-	color: #fff; 
-} 
-.datos::-moz-placeholder {   
-	color: #fff; 
-} 
-.datos:-ms-input-placeholder {    
+.datos::-webkit-input-placeholder {
 	color: #fff;
 } 
-.datos:-moz-placeholder {    
-	color: #fff; 
+.datos::-moz-placeholder {
+	color: #fff;
+} 
+.datos:-ms-input-placeholder {
+	color: #fff;
+} 
+.datos:-moz-placeholder {
+	color: #fff;
 }
 
 iframe {
@@ -240,3 +240,81 @@ iframe {
 	color: #F7B617;
 	cursor: pointer;
 }
+
+/*MODAL INICIAR SESION*/
+.login-color {
+	background-color: #7a7171;
+	color: #fff;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.photo {
+	width: 7em;
+	height: auto;
+	display:block;
+	margin:auto;
+}
+
+.content {
+	width: 100%;
+}
+
+.content a {
+	color: #f7b617;
+}
+
+
+/* PADDING */
+.padding-xs { padding: .25em; }
+.padding-sm { padding: .5em; }
+.padding-md { padding: 1em; }
+.padding-lg { padding: 1.5em; }
+.padding-xl { padding: 3em; }
+.padding-xxl { padding: 10em; }
+
+.padding-x-xs { padding: .25em 0; }
+.padding-x-sm { padding: .5em 0; }
+.padding-x-md { padding: 1em 0; }
+.padding-x-lg { padding: 1.5em 0; }
+.padding-x-xl { padding: 3em 0; }
+.padding-x-xxl { padding: 10em 0; }
+
+.padding-y-xs { padding: 0 .25em; }
+.padding-y-sm { padding: 0 .5em; }
+.padding-y-md { padding: 0 1em; }
+.padding-y-lg { padding: 0 1.5em; }
+.padding-y-xl { padding: 0 3em; }
+.padding-y-xxl { padding: 0 10em; }
+
+.padding-top-xs { padding-top: .25em; }
+.padding-top-sm { padding-top: .5em; }
+.padding-top-md { padding-top: 1em; }
+.padding-top-lg { padding-top: 1.5em; }
+.padding-top-xl { padding-top: 3em; }
+.padding-top-xxl { padding-top: 10.5em; }
+
+.padding-right-xs { padding-right: .25em; }
+.padding-right-sm { padding-right: .5em; }
+.padding-right-md { padding-right: 1em; }
+.padding-right-lg { padding-right: 1.5em; }
+.padding-right-xl { padding-right: 3em; }
+
+.padding-bottom-xs { padding-bottom: .25em; }
+.padding-bottom-sm { padding-bottom: .5em; }
+.padding-bottom-md { padding-bottom: 1em; }
+.padding-bottom-lg { padding-bottom: 1.5em; }
+.padding-bottom-xl { padding-bottom: 3em; }
+
+.padding-left-xs { padding-left: .25em; }
+.padding-left-sm { padding-left: .5em; }
+.padding-left-md { padding-left: 1em; }
+.padding-left-lg { padding-left: 1.5em; }
+.padding-left-xl { padding-left: 3em; }
+
+
+
+
+
