@@ -39,7 +39,7 @@
 
 /*SECCION TAXI*/
 .taxi {
-	background-image: url(../assets/images/taxi.jpg);
+	background-image: url(../images/taxi.jpg);
 	width: 100%;
 	height: 700px;
 	background-size: cover;
@@ -124,7 +124,7 @@
 
 /*SECCION CONDUCCION*/
 .conduce {
-	background-image: url(../assets/images/conduce.jpg);
+	background-image: url(../images/conduce.jpg);
 	color: #fff;
 	width: 100%;
 	height: 500px;
@@ -263,8 +263,6 @@ iframe {
 	color: #f7b617;
 }
 
-
-
 /* PADDING */
 .padding-xs { padding: .25em; }
 .padding-sm { padding: .5em; }
@@ -312,11 +310,12 @@ iframe {
 .padding-left-lg { padding-left: 1.5em; }
 .padding-left-xl { padding-left: 3em; }
 
+/*MODAL DE INSCRIPCION*/
 .modal-content {
 	background-color: #cccccc;
 }
 
-.titulo{
+.titulo {
 	background-color: black;
 	color: white;
 	text-align: center;
@@ -324,29 +323,29 @@ iframe {
 	border-radius: 5px;
 }
 
-.subtitulo{
+.subtitulo {
 	text-align: center;
 }
 
-#nombre{
+#nombre {
 	width: 49%;
 	padding: 10px;
 	margin-right: 2px;
 }
 
-#apellido{
+#apellido {
 	width: 50%;
 	padding: 10px;
 	margin-left: 2px;
 }
 
-.info{
+.info {
 	width: 100%;
 	padding: 10px;
 	margin-top: 5px;
 }
 
-#foot{
+#foot {
 	background-color: #43BDE0;
 	color: #fff;
 	width: 100%;
@@ -356,7 +355,8 @@ iframe {
 	border-radius: 5px;
 }
 
-.pregunta{
+/*MODAL DATOS DE VEHICULO*/
+.pregunta {
 	width: 100%;
 	padding: 10px;
 }
