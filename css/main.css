@@ -19,7 +19,6 @@
 	background-color: #fff;
 	border: 2px solid #fff;
 	color: #000;
-	padding:10px;
 }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-toggle:hover {
@@ -31,11 +30,11 @@
 
 .logo {
 	margin-left: 50px;
+	padding-top: 30px;
 }
 
 .navbar-right {
-	margin-right: 60px;
-	margin-top: 5px;
+	margin-right: 60px;;
 }
 
 /*SECCION TAXI*/
@@ -83,8 +82,7 @@
 
 .alternative {
 	position: relative;
-	bottom: 30px;
-	background-color: #F7B617;
+	bottom: 36px;
 	padding-left: 30px;
 	padding-right: 30px;
 	text-align: center;
@@ -95,7 +93,7 @@
 	background-color: #F7B617;
 	color: #fff;
 	width: 100%;
-	height: 450px;
+	height: 500px;
 }
 
 .texto {
@@ -110,13 +108,13 @@
 
 .borde {
 	border: 1px solid #fff;
-	top: 50px;
+	top: 70px;
 	margin: 10px;
+	right: 85px;
 }
 
 .borde4 {
-	padding-top: 50px;
-	padding-left: 30px;
+	padding-top: 70px;
 }
 
 .borde3 {
@@ -181,7 +179,7 @@
 	border: 1px solid #fff;
 	border-radius: 4px;
 	padding: 6px;
-	width: 80%;
+
 	margin-top: 20px;
 }
 
@@ -232,7 +230,6 @@ iframe {
 }
 
 .fa {
-	color: #fff;
 	padding-right: 10px;
 }
 
@@ -243,7 +240,7 @@ iframe {
 
 /*MODAL INICIAR SESION*/
 .login-color {
-	background-color: #7a7171;
+	background-color: #cccccc;
 	color: #fff;
 }
 
@@ -265,6 +262,7 @@ iframe {
 .content a {
 	color: #f7b617;
 }
+
 
 
 /* PADDING */
@@ -314,7 +312,52 @@ iframe {
 .padding-left-lg { padding-left: 1.5em; }
 .padding-left-xl { padding-left: 3em; }
 
+.modal-content {
+	background-color: #cccccc;
+}
 
+.titulo{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px;
+}
 
+.subtitulo{
+	text-align: center;
+}
 
+#nombre{
+	width: 49%;
+	padding: 10px;
+	margin-right: 2px;
+}
+
+#apellido{
+	width: 50%;
+	padding: 10px;
+	margin-left: 2px;
+}
+
+.info{
+	width: 100%;
+	padding: 10px;
+	margin-top: 5px;
+}
+
+#foot{
+	background-color: #43BDE0;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+}
+
+.pregunta{
+	width: 100%;
+	padding: 10px;
+}
 
